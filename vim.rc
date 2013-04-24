@@ -32,3 +32,5 @@ set laststatus=2
 let vimclojure#ParenRainbow = 1
 
 let g:slime_target = "tmux"
+
+au BufNewFile,BufRead *.gradle set filetype=groovy
